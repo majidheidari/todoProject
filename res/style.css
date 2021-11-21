@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: lightblue;
+    align-items: center;
+}
+
+input {
+    width: 92%;
+    border: none;
+    outline: none;
+}
+
+#TodoBox {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 530px;
+    margin-top: 30px;
+}
+.TodoBox {
+    display: flex;
+    justify-content: space-between;
+    width: 530px;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #e3e4f1;
+    border-top: none;
+}
+.todoDrag{
+    cursor: move;
+}
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border-radius: 50%;
+    border: 1px solid #e3e4f1;
+
+}
+
+.circleDone {
+    background: linear-gradient(to right, #55DDFF, #C058F3)
+}
+
+.icon-done {
+    position: absolute;
+}
+
+.icon-crass {
+    width: 15px;
+}
+h1{
+    color: white;
+}
+p {
+    width: 85%;
+    vertical-align: middle;
+    padding: 5px 0 5px 0;
+}
+
+.pDone {
+    text-decoration: line-through;
+    color: lightslategrey;
+}
+
+.TodoBoxes {
+    min-height: 400px;
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+    padding-top: 5px;
+}
+.totalBax{
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 530px;
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 0 0 5px 5px;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="res/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="head">
+        <h1>TODO</h1>
+        <img src="./res/image/icon-moon.png" style="width: 30px" onclick="setTime()">
+    </div>
+    <div class="TodoBox" id="TodoBox">
+        <div class="circle"></div>
+        <input class="create-todo" type="text" placeholder="Create a new Todo...">
+    </div>
+    <div class="totalBax">
+        <div class="TodoBoxes">
+
+        </div>
+        <div class="menu">
+            <span id="itemsLeft">3 items left</span>
+            <div class="filter">
+                <span onclick="showAll()">All</span>
+                <span onclick="showActive()">Active</span>
+                <span onclick="showCompleted()">Completed</span>
+            </div>
+            <span onclick="clearCompleted()">Clear Completed</span>
+        </div>
+    </div>
+</div>
+
+<script src="src/app.js"></script>
+</body>
+</html>
